@@ -1,6 +1,6 @@
 {
-  "name": "react-country-flag",
-  "version": "1.0.1",
+  "name": "react-country-flags-lazyload",
+  "version": "1.0.2",
   "description": "A React component for displaying country flags.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/country-flag-component.git"
+    "url": "https://github.com/lazicnemanja/react-country-flags.git"
   },
   "peerDependencies": {
     "react": "^16.8.0 ||  ^17.0.0 ||  ^18.0.0",

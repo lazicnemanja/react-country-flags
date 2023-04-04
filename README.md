@@ -6,7 +6,7 @@ The ReactCountryFlag component is a reusable React component that displays a cou
 ## Installation
 
 ```
-yarn add @mycompany/react-country-flag
+yarn add react-country-flags-lazyload
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add @mycompany/react-country-flag
 To use the ReactCountryFlag component in your React application, you can import it and render it like any other React component:
 
 ```
-import CountryFlag from '@mycompany/country-flag';
+import CountryFlag from 'react-country-flags-lazyload';
 
 function MyComponent() {
   return <CountryFlag countryCode="US" />;
