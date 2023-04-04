@@ -19,6 +19,7 @@
         "noImplicitThis": true,
         "noImplicitAny": true,
         "strictNullChecks": true,
+        "skipLibCheck": true,
         "allowSyntheticDefaultImports": true
     },
     "include": [
