@@ -1,6 +1,6 @@
 {
   "name": "react-country-flags-lazyload",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A React component for displaying country flags.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -33,9 +33,7 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
-    "build": "yarn build:esm",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build": "tsc",
     "test": "echo \"No tests yet.\""
   }
 }
