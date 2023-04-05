@@ -271,7 +271,7 @@ type Props = {
     className?: string,
 }
 
-const CountryFlag = (props: Props) => {
+export const CountryFlag = (props: Props) => {
     const CountryFlagComponent = props.countryCode ? flagMaps[props.countryCode] || React.Fragment : React.Fragment;
     return (
         <Suspense fallback={props.suspenseFallback || <></>}>
@@ -281,4 +281,3 @@ const CountryFlag = (props: Props) => {
         </Suspense>
     )
 }
-export default CountryFlag

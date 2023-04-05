@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "lib/esm",
+        "outDir": "./dist",
         "module": "esnext",
         "target": "es5",
         "lib": [
@@ -23,8 +23,8 @@
         "allowSyntheticDefaultImports": true
     },
     "include": [
-        "lib",
-        "src"
+        "./dist",
+        "./src"
     ],
     "exclude": [
         "node_modules"
