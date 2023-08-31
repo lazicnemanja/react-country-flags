@@ -269,7 +269,7 @@ type Props = {
     countryCode: CountryCode | undefined,
     suspenseFallback?: React.ReactNode
     className?: string,
-    style: React.CSSProperties
+    style?: React.CSSProperties
 }
 
 export const CountryFlag = (props: Props) => {
