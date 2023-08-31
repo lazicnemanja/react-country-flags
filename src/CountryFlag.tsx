@@ -276,7 +276,7 @@ export const CountryFlag = (props: Props) => {
     const CountryFlagComponent = props.countryCode ? flagMaps[props.countryCode] || React.Fragment : React.Fragment;
     return (
         <Suspense fallback={props.suspenseFallback || <></>}>
-            <div className={props.className} style={prop.style}>
+            <div className={props.className} style={props.style}>
                 <CountryFlagComponent />
             </div>
         </Suspense>
