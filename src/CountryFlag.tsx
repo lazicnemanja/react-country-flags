@@ -269,13 +269,14 @@ type Props = {
     countryCode: CountryCode | undefined,
     suspenseFallback?: React.ReactNode
     className?: string,
+    style: React.CSSProperties
 }
 
 export const CountryFlag = (props: Props) => {
     const CountryFlagComponent = props.countryCode ? flagMaps[props.countryCode] || React.Fragment : React.Fragment;
     return (
         <Suspense fallback={props.suspenseFallback || <></>}>
-            <div className={props.className}>
+            <div className={props.className} style={prop.style}>
                 <CountryFlagComponent />
             </div>
         </Suspense>
